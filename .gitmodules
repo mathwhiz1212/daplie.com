@@ -1,0 +1,3 @@
+[submodule "themes/daplie"]
+	path = themes/daplie
+	url = git@github.com:Daplie/desi-theme-daplie.git
