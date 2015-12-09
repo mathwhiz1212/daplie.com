@@ -1,0 +1,26 @@
+collections:
+  posts:
+    permalink: /articles/:title/
+themes:
+  coolaj86-bootstrap-3:
+    datamapper: 'ruhoh'
+    pageLayout: '_root'
+    postLayout: 'posts'
+  daplie-desi-theme:
+    datamapper: 'ruhoh'
+    pageLayout: '_root'
+    postLayout: 'posts'
+  coolaj86-twitter:
+    datamapper: 'ruhoh'
+    pageLayout: 'page'
+    postLayout: 'posts'
+  ruhoh-twitter:
+    datamapper: 'ruhoh'
+    pageLayout: 'page'
+    postLayout: 'post'
+  ruhoh-bootstrap-2:
+    datamapper: 'ruhoh'
+    pageLayout: '_root'
+    postLayout: 'posts'
+assets:
+  media: {}

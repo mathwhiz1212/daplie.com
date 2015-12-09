@@ -1,0 +1,16 @@
+---
+title: "Blog"
+description: "A full list of all of our rants and raves for your reading pleasure"
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="headline text-left">{{ page.title }}</h1>
+      <hr class="hr-header">  
+      {{# posts.collated }}
+			  {{> posts_collate }}
+			{{/ posts.collated }}
+    </div>
+  </div>
+</div>
