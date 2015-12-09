@@ -1,10 +1,10 @@
-title: CoolAJ86
+title: Daplie
 favicon: media/daplie-favicon.png
 square_logo: media/daplie-logo-final.png
-tagline: "I make Awesome. Mostly with node.js!"
-description: The rants and raves of AJ the Technologist
-base_url: "https://coolaj86.com"
+tagline: "Changing the world since 2015"
+description: The rants and raves of Daplie
+base_url: "https://daplie.com"
 base_path: /
-google_analytics_tracking_id: UA-18902063-1
-disqus_shortname: coolaj86-gh
+google_analytics_tracking_id: UA-68660916-1
+disqus_shortname: daplie
 theme: daplie
