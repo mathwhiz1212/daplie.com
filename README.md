@@ -219,3 +219,5 @@ theme: some-other-theme
 * `<link rel="stylesheet" type="text/css" href="/themes/daplie/stylesheets/bootstrap-v3.3.5.min.css">`
 * error message for when theme is missing from config.yml (pageLayout undefined)
 * copy fonts directory
+* social buttons
+* page.relativefilename

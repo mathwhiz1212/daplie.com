@@ -15,7 +15,7 @@ Hello, World!
 I'm AJ ONeal and I believe that there is a better Internet waiting for us.
 
 That's Internet with a capital 'I' not because old grammar books put it there
-but because the Internet is a big idea and with big potential - much bigger
+but because the Internet is a big idea with big potential - much bigger
 than anything that can be done by the
 [short list](https://en.wikipedia.org/wiki/List_of_largest_Internet_companies)
 of companies that control most of its traffic - and so for this discussion it
