@@ -30,7 +30,7 @@ I owned my stuff.
 Somehow I let that get past me.
 
 Now it seems like everything that I own is on someone else's computer - in "the cloud",
-some far off magical land where at the click of the button
+some far off magical wasteland where at the click of the button
 and [56 pages](https://www.businessinsider.com/apple-terms-and-conditions) of legal jargon
 that I didn't actually read later... something?
 
