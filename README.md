@@ -221,3 +221,4 @@ theme: some-other-theme
 * copy fonts directory
 * social buttons
 * page.relativefilename
+* .desirc with author info (for cross-posting)
