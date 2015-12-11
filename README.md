@@ -218,3 +218,7 @@ theme: some-other-theme
 * needs better error message for site.yml bad theme and themes listed in config.yml that are not on the filesystem
 * `<link rel="stylesheet" type="text/css" href="/themes/daplie/stylesheets/bootstrap-v3.3.5.min.css">`
 * error message for when theme is missing from config.yml (pageLayout undefined)
+* copy fonts directory
+* social buttons
+* page.relativefilename
+* .desirc with author info (for cross-posting)
