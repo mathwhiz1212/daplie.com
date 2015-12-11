@@ -6,8 +6,8 @@ date: '2015-12-09 4:39 pm'
 uuid: 92ec9d40-d0b9-451e-b6dc-ac6b8aa060aa
 permalink: /articles/lets-encrypt-on-digital-ocean-with-caddy/
 author: coolaj86
-youtube: "TPlHJhN--74"
-player: "https://www.youtube.com/embed/TPlHJhN--74"
+youtube: "DCRedMpF1zU"
+player: "https://www.youtube.com/embed/DCRedMpF1zU"
 ---
 
 <!--
