@@ -6,6 +6,8 @@ date: '2015-12-09 4:39 pm'
 uuid: 92ec9d40-d0b9-451e-b6dc-ac6b8aa060aa
 permalink: /articles/lets-encrypt-on-digital-ocean-with-caddy/
 author: coolaj86
+youtube: "TPlHJhN--74"
+player: "https://www.youtube.com/embed/TPlHJhN--74"
 ---
 
 <!--
@@ -85,6 +87,12 @@ In order to make this process super fast and easy we're gonna use these tools:
 
 Quick Start
 -----------
+
+### For the Pros
+
+If you can't be bothered to read and just want the command line stuff:
+
+* [Let's Encrypt in (literally) 90 seconds](/articles/lets-encrypt-in-literally-90-seconds/)
 
 ### 1. Login to the VPS
 
@@ -181,10 +189,10 @@ Change the example email to **your email** so that the domain will be available 
 
 ```bash
 # Run this if you want a custom domain
-ddns --hostname johndoe.daplie.com --email john.doe@example.com
+ddns --hostname johndoe.daplie.com --agree --email john.doe@example.com
 
 # Or run this for a random domain
-ddns --random --email john.doe@example.com
+ddns --random --agree --email john.doe@example.com
 ```
 
 You will see output that is **similar to this**:
