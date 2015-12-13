@@ -10,7 +10,7 @@ player: "https://www.youtube.com/embed/22zg3TPSeEo"
 
 This is ridiculous. Purely for Giggles.
 
-But, yes, we're going to set up an HTTPS Web Server on a fresh system in 90 (ish) seconds.
+But, yes, we're going to set up an HTTPS Web Server on a fresh system in (exactly) 90 seconds.
 
 Assumptions
 -----------
@@ -101,6 +101,7 @@ DAPLIE_HOSTNAME=rubber-duck-42.daplie.me
 # CHANGE THE HOSTNAME
 rubber-duck-42.daplie.me {
   gzip
+  tls john.doe@example.com
   root /srv/www/rubber-duck-42.daplie.me
 }
 ```
@@ -112,6 +113,7 @@ mkdir -p "/srv/www/$DAPLIE_HOSTNAME/"
 
 echo "$DAPLIE_HOSTNAME {"               >> /srv/www/Caddyfile
 echo "  gzip"                           >> /srv/www/Caddyfile
+echo "  tls $EMAIL"                     >> /srv/www/Caddyfile
 echo "  root /srv/www/$DAPLIE_HOSTNAME" >> /srv/www/Caddyfile
 echo "}"                                >> /srv/www/Caddyfile
 ```
