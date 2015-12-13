@@ -226,25 +226,40 @@ Until then, feel free to use a `.daplie.me`.
 **If you can't wait** then I recommend [name.com](https://www.name.com).
 I've personally been a satisfied customer of theirs for years.
 
-### 4. Automatic HTTPS with Caddy
+### 4. Create a Hello World webpage
+
+You'll want something to welcome others to your cozy home on the web:
+
+```bash
+# creates an html file to serve with caddy
+echo 'Hello, World!' >> ./index.html
+```
+
+### 5. Automatic HTTPS with Caddy
 
 Even if you don't use Caddy as your main webserver (although we hope you do),
 it's the easiest way to get letsencrypt certificates.
 
 You need to **create a `Caddyfile`**.
-Change to **your hostname**.
+Change to **your hostname** and **your email**.
+
+We'll use `echo` and `>>` to write the file.
+
+This is the Quick 'n' Dirty™ way to write a file line-by-line.
 
 ```bash
-# Creates a file with only the hostname
-# accept all default options
-echo 'rubber-duck-42.daplie.me' >> ./Caddyfile
+echo "rubber-duck-42.daplie.me {"       >> ./Caddyfile
+echo "  tls john.doe@example.com"       >> ./Caddyfile
+echo "}"
 ```
 
-You'll also want something to welcome others to your cozy home on the web:
+Now our file looks like this:
 
-```bash
-# creates an html file to serve with caddy
-echo 'Hello, World!' >> ./index.html
+`cat ./Caddyfile`:
+```
+rubber-duck-42.daplie.me {
+  tls john.doe@example.com
+}
 ```
 
 Now you can run caddy with that configuration file
@@ -266,7 +281,7 @@ Here's the fun part.
 
 Go to <https://YOUR-SUBDOMAIN.daplie.me> (yes, change it out for yours).
 
-### 6. Where the HTTPS Certificates are
+### 7. Where the HTTPS Certificates are
 
 They're here:
 
