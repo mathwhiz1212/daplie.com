@@ -4,7 +4,7 @@ description: "Easy, no downtime, mirroring using daplie-tools and DDNS."
 permalink: /articles/No-downtime-DDNS-mirroring-with-daplie-tools/
 ---
 
-**NOTE:** For this tutorial, you will want to replace '**devicename**' with your device name and '**ipaddress**' with either your IP address or a dummy one. You will want to replace **example.daplie.me** with your domain. You will need to replace '**tokenurl**' with your token URL you get in [this section](#your-device-token).
+**NOTE:** For this tutorial, you will want to replace '**[devicename]**' with your device name and '**[ipaddress]**' with either your IP address or a dummy one. You will want to replace **[example.daplie.me]** with your domain. You will need to replace '**[tokenurl]**' with your token URL you get in [this section](#your-device-token).
 
 # Requirements
 
@@ -17,7 +17,7 @@ permalink: /articles/No-downtime-DDNS-mirroring-with-daplie-tools/
 This command creates a device and assigns it an IP address. The IP address will be changed later.
 
 ```
-daplie devices:set --device 'devicename' --addresses 'ipaddress'
+daplie devices:set --device '[devicename]' --addresses '[ipaddress]'
 ```
 
 # Attach a Device
@@ -25,7 +25,7 @@ daplie devices:set --device 'devicename' --addresses 'ipaddress'
 This command attaches your device to the domain name you set up previously in daplie-tools. You will want to attach your devices in the order you want them to fall back in, the first device last. For instance, if I have rp1 and rp2 and I want to have rp1 as the primary device and for it to fall back on rp2 if rp1 goes offline then I would attach rp2 first then attach rp1.
 
 ```
-daplie devices:attach --device 'devicename' -n 'example.daplie.me'
+daplie devices:attach --device '[devicename]' -n 'example.daplie.me'
 ```
 
 # Your Device Token
@@ -33,7 +33,7 @@ daplie devices:attach --device 'devicename' -n 'example.daplie.me'
 This command will display your device's token. This is needed to update your DNS record.
 
 ```
-daplie devices:token --device 'devicename'
+daplie devices:token --device '[devicename]'
 ```
 
 Example output:
@@ -55,7 +55,7 @@ while :
 do
 
 #Replace tokenurl with your device token URL.
-wget tokenurl
+wget [tokenurl]
 
 #Every 5 minutes.
 sleep 600
