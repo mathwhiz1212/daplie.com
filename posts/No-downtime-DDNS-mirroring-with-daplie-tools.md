@@ -4,7 +4,7 @@ description: "Easy, no downtime, mirroring using daplie-tools and DDNS."
 permalink: /articles/No-downtime-DDNS-mirroring-with-daplie-tools/
 ---
 
-**NOTE:** For this tutorial, you will want to replace '**[devicename]**' with your device name and '**[ipaddress]**' with either your IP address or a dummy one. You will want to replace **[example.daplie.me]** with your domain. You will need to replace '**[tokenurl]**' with your token URL you get in [this section](#your-device-token).
+**NOTE:** For this tutorial, you will want to replace **[devicename]** with your device name and **[ipaddress]** with either your IP address or a dummy one. You will want to replace **[example.daplie.me]** with your domain. You will need to replace **[tokenurl]** with your token URL you get in [this section](#your-device-token).
 
 # Requirements
 
