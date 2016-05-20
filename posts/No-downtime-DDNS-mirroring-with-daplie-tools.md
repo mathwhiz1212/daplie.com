@@ -69,3 +69,5 @@ Repeat for every device.
 # Conclusion
 
 You should have MDDNS (Mirrored Dynamic DNS) set up. If any one of them goes offline the other should immediately take its place. No downtime! In my test I had 2 points, if one went offline the 2nd point would remain.
+
+Hi, I'm Josh Mudge if you find what I do useful or helpful please flattr me: https://flattr.com/profile/livetolearntech
