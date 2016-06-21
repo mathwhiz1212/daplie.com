@@ -12,6 +12,8 @@ permalink: /articles/No-downtime-DDNS-mirroring-with-daplie-tools/
 
 * You need a domain name set up in daplie-tools. If you haven't done that yet, you can find out how to set it up here: [https://github.com/daplie/daplie-tools#purchase-your-own-com-org-net-etc](https://github.com/daplie/daplie-tools#purchase-your-own-com-org-net-etc)
 
+* You will need screen, you can install this using `sudo apt-get install screen`
+
 # Create a device
 
 This command creates a device and assigns it an IP address. The IP address will be changed later.
@@ -62,7 +64,7 @@ sleep 600
 done
 ```
 
-Then run chmod +x ddns.sh
+Then run `chmod +x ddns.sh` and screen `./ddns.sh`
 
 Repeat for every device.
 
